@@ -1,5 +1,7 @@
 function addItem(){
     "use strict";
+
+    var listOfGoals = [];
     var ul = document.getElementById("listOfGoals");
     var goal = document.getElementById("goal");
     var li = document.createElement("li");
